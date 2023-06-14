@@ -1,0 +1,57 @@
+!!  Notes for images for directions   !!
+
+
+html: 
+<div class="imagenav">
+<img class="image2" src="NHstreet.jpg" alt="Notting Hill">
+<div class="image_overlay">
+    <div class="image_title">West</div>
+    <p class="image_description">
+        Whats on in West London
+    </p>
+</div>
+</div>
+
+
+css:
+.imagenav{
+    position: relative;
+    width: 400px;
+}
+
+.image2{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+
+.image_overlay:hover {
+opacity: 1
+}
+
+.image_title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.image_description{
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+}
