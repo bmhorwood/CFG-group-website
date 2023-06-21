@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    height: 80px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem
+}
+
+.logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem
+}
+
+.btn-toggle{
+padding-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+}
+
+.hero {
+    background-color: white;
+}
+
+.hero-container {
+    display: grid;
+    height: 40vh;
+    padding: 0.25rem;
+}
+
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    padding: 0rem 0.5rem
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.photoalbum{
+background-color: white;
+padding-bottom: 10px;
+}
+
+img {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    object-fit: cover;
+    padding: 0;
+}
